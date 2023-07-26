@@ -32,8 +32,8 @@ mongoose
     process.exit(1);
   });
 
-  app.listen(port, () =>
-// app.listen(process.env.PORT || 3000, () =>
+//   app.listen(port, () =>
+app.listen(process.env.PORT || 3000, () =>
   console.log(`Server running on http://localhost:${port}`)
 );
 
