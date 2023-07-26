@@ -39,7 +39,7 @@ app.listen(process.env.PORT || 3000, () =>
 
 app.get("/", async (req, res) => {
   // Document to be inserted
-  const doc = new Quiz({ name: "N C", sid: "300123234" });
+  const doc = new Quiz({ name: "N C", sid: "300123234-3" });
 
   // Save the document into the 'quizzes' collection
   try {
